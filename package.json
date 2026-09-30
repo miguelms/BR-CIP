@@ -1,8 +1,8 @@
 {
-  "name": "golden-starter-v2",
-  "version": "2.0.0",
+  "name": "br-cip",
+  "version": "1.0.0",
   "private": true,
-  "description": "Golden Starter V2 — Enterprise Monorepo Skeleton (Next.js 16 + React 19 + Expo 57 + Drizzle ORM + PostgreSQL 18 + Better-Auth + Zod contracts)",
+  "description": "CIP — Captador Inteligente de Propiedades: Plataforma de alta y gestión inmobiliaria con IA por voz, visión y persistencia relacional",
   "workspaces": [
     "apps/mobile",
     "packages/contracts"

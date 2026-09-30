@@ -54,7 +54,7 @@ services:
 
   flask-api:
     build:
-      context: ./services/ai-satellite
+      context: ./backend-ai
       dockerfile: Dockerfile
     image: starter-ai-satellite:staging
     container_name: starter_flask_staging
@@ -71,7 +71,7 @@ services:
 
   celery-worker:
     build:
-      context: ./services/ai-satellite
+      context: ./backend-ai
       dockerfile: Dockerfile
     image: starter-ai-satellite:staging
     container_name: starter_celery_staging
